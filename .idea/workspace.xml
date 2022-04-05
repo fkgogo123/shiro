@@ -4,11 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0198d22b-3153-4c17-bec4-67a3a5235460" name="Changes" comment="test authentication" />
+    <list default="true" id="0198d22b-3153-4c17-bec4-67a3a5235460" name="Changes" comment="认证，加密，及授权demo">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zfk/TestCustomerMd5RealmAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zfk/TestCustomerRealmAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zfk/TestMd5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zfk/realm/CustomerMd5Realm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zfk/realm/CustomerRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zfk/TestCustomerMd5RealmAuthenticator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zfk/TestCustomerRealmAuthenticator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zfk/TestMd5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zfk/realm/CustomerMd5Realm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zfk/realm/CustomerRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zfk/TestAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zfk/TestAuthenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zfk/TestAuthenticator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zfk/TestAuthenticator.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="NO_FF" />
+      </set>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,7 +73,9 @@
     </option>
   </component>
   <component name="ProjectId" id="27L4mT3LsQRjE7YQz7F8ewQIzuj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,11 +85,74 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.TestCustomerMd5RealmAuthenticator">
+    <configuration name="TestAuthenticator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zfk.TestAuthenticator" />
+      <module name="shiro-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zfk.realm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCustomerMd5RealmAuthenticator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zfk.TestCustomerMd5RealmAuthenticator" />
+      <module name="shiro-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zfk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCustomerRealmAuthenticator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zfk.TestCustomerRealmAuthenticator" />
+      <module name="shiro-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zfk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMd5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zfk.TestMd5" />
+      <module name="shiro-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zfk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestCustomerMd5RealmAuthenticator" />
+        <item itemvalue="Application.TestAuthenticator" />
+        <item itemvalue="Application.TestMd5" />
+        <item itemvalue="Application.TestCustomerRealmAuthenticator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,6 +165,7 @@
       <workItem from="1649086197551" duration="1419000" />
       <workItem from="1649129068253" duration="13000" />
       <workItem from="1649129089285" duration="622000" />
+      <workItem from="1649141115294" duration="12411000" />
     </task>
     <task id="LOCAL-00001" summary="test authentication">
       <created>1649129203494</created>
@@ -68,6 +183,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="577d8595-fc06-4eb0-9221-7d9ef1e15464">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -78,6 +218,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="test authentication" />
+    <MESSAGE value="认证，加密，及授权demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="认证，加密，及授权demo" />
   </component>
 </project>
