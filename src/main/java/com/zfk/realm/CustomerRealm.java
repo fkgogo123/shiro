@@ -8,6 +8,7 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 
+
 /**
  * 自定义Realm实现。
  *
@@ -34,5 +35,6 @@ public class CustomerRealm extends AuthorizingRealm {
         }
 
         return null;
+
     }
 }

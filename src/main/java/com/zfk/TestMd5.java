@@ -3,9 +3,12 @@ package com.zfk;
 import org.apache.shiro.crypto.hash.Md5Hash;
 
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class TestMd5 {
     public static void main(String[] args) {
+
         // 创建一个 md5 算法
         // Md5Hash md5Hash = new Md5Hash();
         // 不推荐使用set方法进行赋值
